@@ -12,14 +12,14 @@
 
 
 
-### Para crear el ambiente con python
+### Para crear el entorno python de trabajo en el proyecto:  
 
-##### 1. Actualiza PIP global
+##### 1. Actualiza PIP global.
 ```
 python -m pip install -U Pip  
 ```
 
-##### 2. Crea un entorno para el proyecto.
+##### 2. Crea el entorno para el proyecto (lo llamaremos 'env').
 ```
 python -m venv env
 env\Scripts\activate
